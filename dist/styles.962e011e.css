@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+#app {
+  max-width: calc(40px * 8);
+  max-height: calc(40px * 8);
+  display: flex;
+  flex-wrap: wrap;
+}
+#app .box {
+  width: 40px;
+  height: 40px;
+  background-color: greenyellow;
+  border: 1px solid rgba(169, 122, 30, 0.964);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#app .box.initial {
+  border: 1px solid rgb(104, 89, 62);
+  border-style: outset;
+  cursor: pointer;
+}
+#app .box.bomb-count-1 {
+  color: blue;
+}
+#app .box.bomb-count-2 {
+  color: rgb(32, 82, 32);
+}
+#app .box.bomb-count-3 {
+  color: rgb(114, 41, 41);
+}
+#app .box.bomb-count-4 {
+  color: rgb(0, 0, 255);
+}
+#app .box.bomb-count-5 {
+  color: rgb(99, 19, 19);
+}
+#app .box.bomb-count-6 {
+  color: black;
+}
+#app .box.bomb-count-7 {
+  color: black;
+}
+#app .box.bomb-count-8 {
+  color: white;
+}
+
+/*# sourceMappingURL=/styles.962e011e.css.map */
